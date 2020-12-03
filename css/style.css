@@ -90,7 +90,12 @@ font-family: 'Texturina', serif;
     {
     background-color: #98a9b1;
     }
-
+    .jumbotron
+    {
+        background-color:#e6e6ff;
+        background-image:url(../images/c4.jpg);
+        padding:2vw 2vw 2vw 2vw;
+    }
 }
 @media(max-width:600px)
 {
@@ -157,5 +162,41 @@ font-family: 'Texturina', serif;
     #navlist a:hover
     {
     background-color: #98a9b1;
+    }
+}
+@media(min-width:1200px)
+{
+    .jumbotron
+    {
+        background-image: url(../images/t2.jpg);
+        background-repeat:no-repeat;
+        height:734px;
+        margin: auto;
+        box-shadow:5px 5px 30px #0000b3;
+        margin-top:20px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+    .jumbotron
+    {
+        background-image: url(../images/u9.jpg);
+        background-repeat:no-repeat;
+        height: 600px;
+        margin: auto;
+        box-shadow:5px 5px 30px #29297a;
+        margin-top:20px;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .jumbotron
+    {
+        background-image: url(../images/u8.jpg);
+        background-repeat:no-repeat;
+        height: 410px;
+        margin: auto;
+        box-shadow:5px 5px 30px #0000b3;
+        margin-top:20px;
     }
 }
