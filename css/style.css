@@ -59,14 +59,21 @@ font-family: 'Texturina', serif;
 }
 @media(max-width:767px)
 {
+    #logo{
+        background-image: url(../images/u3.jpg);
+        background-repeat: no-repeat;
+        height:80px;
+        width:80px;
+        margin: 05vw 2vw -10vw 5vw;
+    }
     .navbar-brand
     {
-        height:13vw;
+        height:15vw;
     }
     .navbar-brand h1 
     {
-        font-size:6vw;
-        font-weight:470;
+        font-size:7vw;
+        font-weight:490;
         margin-top:10px;
     }
     }
