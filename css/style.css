@@ -78,6 +78,9 @@ font-family: 'Texturina', serif;
         font-weight:490;
         margin-top:10px;
     }
+    .navbar-brand p{
+        font-size:3.5vw;
+    }
     #navlist
     {
         margin-top:10px;
