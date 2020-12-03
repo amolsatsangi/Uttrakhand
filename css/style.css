@@ -59,12 +59,14 @@ font-family: 'Texturina', serif;
 }
 @media(max-width:767px)
 {
-    #logo{
-        background-image: url(../images/u3.jpg);
+    #logo
+    {
+        background-image: url(../images/c2.PNG);
         background-repeat: no-repeat;
-        height:80px;
-        width:80px;
-        margin: 05vw 2vw -10vw 5vw;
+        height:83px;
+        width:130px;
+        margin: 04vw 1.8vw 0vw 5vw;
+        align-items: baseline;
     }
     .navbar-brand
     {
@@ -76,6 +78,73 @@ font-family: 'Texturina', serif;
         font-weight:490;
         margin-top:10px;
     }
+    #navlist
+    {
+        margin-top:10px;
+    }
+    #navlist a
+    {
+       margin-top:17px;
+    }
+    #navlist a:hover
+    {
+    background-color: #98a9b1;
+    }
+
+}
+@media(max-width:600px)
+{
+    #logo
+    {
+        background-image: url(../images/C1.PNG);
+        background-repeat: no-repeat;
+        height:65px;
+        width:110px;
+        margin: 05vw 1.8vw -10vw 5vw;
+        align-items: baseline;
+    }
+    .navbar-brand
+    {
+        height:15vw;
+    }
+    .navbar-brand h1 
+    {
+        font-size:7vw;
+        font-weight:490;
+        margin-top:10px;
+    }
+    #navlist
+    {
+        margin-top:10px;
+    }
+    #navlist a
+    {
+       margin-top:17px;
+    }
+    #navlist a:hover
+    {
+    background-color: #98a9b1;
+    }
+}
+@media(max-width:500px)
+{
+    #logo
+    {
+        background-image: url(../images/u3.jpg);
+        background-repeat: no-repeat;
+        height:80px;
+        width:80px;
+        margin: 05vw 1.8vw -10vw 5vw;
+    }
+    .navbar-brand
+    {
+        height:15vw;
+    }
+    .navbar-brand h1 
+    {
+        font-size:7vw;
+        font-weight:490;
+        margin-top:10px;
     }
     #navlist
     {
