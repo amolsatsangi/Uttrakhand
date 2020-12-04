@@ -23,7 +23,7 @@ body{
     margin-bottom:10px;
     font-weight: 500;
     font-family: 'Sansita Swashed', cursive;
-font-family: 'Texturina', serif;
+    font-family: 'Texturina', serif;
 }
 .navbar-brand a:hover{
     text-decoration: none;
@@ -70,7 +70,7 @@ font-family: 'Texturina', serif;
     }
     .navbar-brand
     {
-        height:15vw;
+        height:13vw;
     }
     .navbar-brand h1 
     {
@@ -99,6 +99,7 @@ font-family: 'Texturina', serif;
         padding:0;
         margin-top:2vw;
         box-shadow:5px 5px 4vw #0000b3;
+        border: 2px solid #9db2be;
     }
 }
 @media(max-width:600px)
@@ -170,14 +171,17 @@ font-family: 'Texturina', serif;
 }
 @media(min-width:1200px)
 {
-    .jumbotron
+    .container .jumbotron
     {
-        background-image: url(../images/t2.jpg);
+        background-image: url(../images/u25.jpg);
         background-repeat:no-repeat;
-        height:734px;
+        height:675px;
+        width:1100px;
         margin: auto;
         box-shadow:5px 5px 4vw #0000b3;
         margin-top:20px;
+        border: 2px solid #9db2be;
+        padding:0;
     }
 }
 @media(min-width:992px) and (max-width:1199px)
@@ -190,6 +194,7 @@ font-family: 'Texturina', serif;
         margin: auto;
         box-shadow:5px 5px 4vw #29297a;
         margin-top:20px;
+        border: 2px solid #9db2be;
     }
 }
 @media(min-width:768px) and (max-width:991px)
@@ -202,5 +207,148 @@ font-family: 'Texturina', serif;
         margin: auto;
         box-shadow:5px 5px 4vw #0000b3;
         margin-top:20px;
+        border: 2px solid #9db2be;
     }
+}
+#n1
+{
+    background:#ffff66;
+    margin-top:2em;
+    padding:1.5em;
+    padding-right:-10px;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -webkit-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    float:right;
+}
+#n1:hover, #n1:focus
+{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  position:relative;
+    -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#n2
+{
+    background:#ffb3e6;
+    margin-top:2em;
+    padding:1.5em;
+    padding-right:-10px;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -webkit-transform:rotate(-2deg);
+    -o-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    clear: both;
+}
+#n2:hover, #n2:focus
+{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  position:relative;
+    -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#geo p ,#geo h2
+{
+    margin-left:10px;
+    
+}
+#n3
+{
+    background:#adebad;
+    margin-top:2em;
+    padding:1.5em;
+    padding-right:-10px;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -webkit-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+}
+#n3:hover, #n3:focus
+{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  position:relative;
+    -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#n4
+{
+    background:#ffd699;
+    margin-top:2em;
+    padding:1.5em;
+    padding-right:-10px;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -webkit-transform:rotate(-2deg);
+    -o-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    clear:both;
+}
+#n4:hover, #n3:focus
+{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  position:relative;
+    -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#climate p, #climate h2
+{
+    margin-left:10px;
+}
+#n5
+{
+    background:#ff6666;
+    margin-top:2em;
+    padding:1.5em;
+    padding-right:-10px;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -webkit-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+}
+#n5:hover, #n5:focus
+{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  position:relative;
+    -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.panel-footer
+{
+    background-color: #8a8a5c;
+    color:white;
+    margin-top:20px;
+}
+#about
+{
+    text-align: center;
+}
+#testimonials
+{
+    text-align: center;
+}
+
+.row span
+{
+    font-size:16px;
+    font-weight: 500;
 }
