@@ -210,6 +210,15 @@ body{
         margin-top:20px;
         border: 2px solid #9db2be;
     }
+    #navlist a 
+   {
+    margin-top: -70px;
+    font-size:1.5em;
+    font-weight: 570;
+    text-align: center;
+    margin-right: -20px;
+
+}
 }
 #n1
 {
