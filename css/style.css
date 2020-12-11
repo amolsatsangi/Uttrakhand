@@ -92,6 +92,7 @@ body{
     #navlist a:hover
     {
     background-color: #98a9b1;
+    padding-bottom:10px;
     }
     .container .jumbotron
     {
