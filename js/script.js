@@ -14,9 +14,11 @@ $(function(){
         var i;
         var x;
         x=document.getElementsByClassName("jumbo");
+        var y=document.getElementsByClassName("q1");
         for(i=0;i<x.length;i++)
         {
             x[i].style.display="none";
+            y[i].style.visibility="hidden";
         }
         slide++;
         if(slide>=x.length)
@@ -24,6 +26,7 @@ $(function(){
             slide=1;
         }
         x[slide-1].style.display="block";
+        y[slide-1].style.visibility="visible";
         setTimeout(ss.slideshow,10000);
     }
     ss.slideshow();
