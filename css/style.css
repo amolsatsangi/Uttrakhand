@@ -439,4 +439,18 @@ body{
    box-shadow:10px 10px 7px rgba(0,0,0,.7);
      }
  } 
+.cont{
+    position: relative;
+  text-align: center;
+}
+.q1{
+    position:absolute;
+    bottom:0.7em;
+    right:1em;
+    color:white;
+}
+#qq{
+    color:rgba(2, 12, 31, 0.746);
+    font-weight: 600;
+}
 
