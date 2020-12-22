@@ -13,7 +13,7 @@ $(function(){
     ss.slideshow=function(){
         var i;
         var x;
-        x=document.getElementsByClassName("jumbo");
+        x=document.getElementsByClassName("j");
         var y=document.getElementsByClassName("q1");
         for(i=0;i<x.length;i++)
         {
