@@ -60,13 +60,16 @@ body{
 .container .jumbotron
     {
         background-color:#e6e6ff;
-        padding:1vw;
+        padding:0vw;
         margin-top:2vw;
-        box-shadow:2px 2px 4vw #0000b3;
-        border: 4px solid #9db2be;
+        box-shadow:2px 2px 2vw #0000b3;
+        border: 2px solid #9db2be;
     }
 @media(max-width:767px)
 {
+    body{
+        font-size:16px;
+    }
     #logo
     {
         background-image: url(../images/c2.PNG);
@@ -102,6 +105,7 @@ body{
     background-color: #98a9b1;
     padding-bottom:10px;
     }
+    
 }
 @media(max-width:600px)
 {
@@ -149,26 +153,33 @@ body{
     }
     .navbar-brand
     {
-        height:15vw;
+        height:22vw;
     }
     .navbar-brand h1 
     {
-        font-size:7vw;
+        font-size:8vw;
         font-weight:490;
         margin-top:10px;
     }
     #navlist
     {
-        margin-top:10px;
+        margin-top:0px;
     }
     #navlist a
     {
-       margin-top:17px;
+       margin-top:10px;
     }
     #navlist a:hover
     {
     background-color: #98a9b1;
     }
+    .navbar-brand p
+{
+    font-size: 1.2em;
+    color:black;
+    font-family: 'Sansita Swashed', cursive;
+
+}
 }
 @media(min-width:768px) and (max-width:991px)
 {
@@ -182,14 +193,13 @@ body{
         border: 2px solid #9db2be;
     }
     #navlist a 
-   {
-    margin-top: -70px;
-    font-size:1.5em;
-    font-weight: 570;
-    text-align: center;
-    margin-right: -20px;
-
-}
+    {
+        margin-top: -70px;
+        font-size:1.5em;
+        font-weight: 570;
+        text-align: center;
+        margin-right: -20px;
+    }
 }
 #n1
 {
@@ -315,19 +325,29 @@ body{
 }
 .panel-footer
 {
-    background-color: #8a8a5c;
-    color:white;
-    margin-top:20px;
+    background-color: white;
+    color:#808080;
+    margin-top:30px;
+    padding-top:25px;
 }
 #about
 {
     text-align: center;
 }
+#about div{
+    margin-bottom:10px;
+}
 #testimonials
 {
     text-align: center;
 }
-
+#testimonials div{
+    font-size:16px;
+    margin-bottom: 7px;
+}
+#connect{
+    text-align: center;
+}
 .row span
 {
     font-size:16px;
@@ -453,4 +473,74 @@ body{
     color:rgba(2, 12, 31, 0.746);
     font-weight: 600;
 }
-
+@media(max-width:767px)
+{
+    #geo p{
+        margin-left:0px;
+    }
+    #geo h2{
+        margin-left:0px;
+    }
+    #climate p{
+        margin-left:0px;
+    }
+    #climate h2{
+        margin-left:0px;
+    }
+}
+.nanda{
+    position:relative;
+    text-align:center;
+}
+.n
+{
+    position:absolute;
+    bottom:0.5vw;
+    right:1vw;;
+    color:white;
+}
+.container .jumbotron .nanda
+    {
+        background-color:#e6e6ff;
+        padding:0vw;
+    }
+    .dev{
+        position:relative;
+        text-align:center;
+    }
+    .d
+    {
+        position:absolute;
+        bottom:0.5vw;
+        right:1vw;
+        color:white;
+    }
+    .auli{
+        position:relative;
+        text-align:center;
+    }
+    .jumbotron .au
+    {
+        position:absolute;
+        bottom:0em;
+        right:1vw;
+        color:rgb(3, 10, 65);
+        font-weight: 600;
+    }
+    .lang{
+        position:relative;
+        text-align:center;
+    }
+    .jumbotron .l
+    {
+        position:absolute;
+        bottom:0em;
+        right:1vw;
+        color:white;
+    }
+    #connect p{
+        margin-top:10px;
+    }
+    #connect #imgs{
+        padding-top:10px;
+    }
