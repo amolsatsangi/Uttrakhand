@@ -1,9 +1,9 @@
 # Uttrakhand
 ## Home Page
 See website home page [here](http://kausani.me/Uttrakhand/index.html)<br>
-<img src="Uttrakhand/m1.png">
+<img src="m1.png">
 <br>
-<img src="Uttrakhand/m2.png">
+<img src="m2.png">
 <br>
-<img src="Uttrakhand/m3.png">
+<img src="m3.png">
 
