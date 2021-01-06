@@ -7,9 +7,11 @@ See website home page [here](http://kausani.me/Uttrakhand/index.html)<br>
 <img src="m2.png">
 <br>
 <img src="m3.png">
+
 ### Phone view
+<br>
 <img src="pm1.png">
-<br>
+
 <img src="pm2.png">
-<br>
+
 <img src="pm3.png">
